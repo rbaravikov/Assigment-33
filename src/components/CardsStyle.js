@@ -8,11 +8,4 @@ export const CardsStyle = styled.div`
   text-align: center;
   color: #103F62;
 
-
-div{
-  background: white;
-  padding: 15px;
-  border-radius: 4px;
-  max-width: 300px;
-}
 `

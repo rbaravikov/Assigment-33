@@ -11,6 +11,7 @@ padding: 5px 15px;
 box-shadow: 0px 3px 3px lightgrey;
 position: fixed;
 width: 100vw;
+z-index: 100;
 
   
 a {

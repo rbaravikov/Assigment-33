@@ -1,7 +1,7 @@
 import './App.css'
 import { ButtonStyle, NavStyle } from './components/NavStyle'
 import { CardsStyle } from './components/CardsStyle'
-import { HeaderStyle } from './components/HeaderStyle'
+import { ContainerStyle, HeaderStyle } from './components/HeaderStyle'
 import Option from './components/Options'
 
 function App() {
@@ -9,12 +9,12 @@ function App() {
   return (
     <>
     <NavStyle>
-        <a href="#">Landing Page</a>
+        <a href="">Landing Page</a>
         <div>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contacts</a>
-          <a href="#">Faq</a>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contacts</a>
+          <a href="">Faq</a>
         </div>
         <ButtonStyle>Get Started</ButtonStyle>
     </NavStyle>
@@ -25,9 +25,9 @@ function App() {
         <p>Made with react and styled components</p>
         <ButtonStyle>Get Started</ButtonStyle>
       </CardsStyle>
-      <CardsStyle>
+      <ContainerStyle>
         <Option/>
-      </CardsStyle>
+      </ContainerStyle>
     </HeaderStyle>
     </>
   )
