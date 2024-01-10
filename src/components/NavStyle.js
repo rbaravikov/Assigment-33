@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavStyle = styled.nav`
 
-height: 40px;
+min-height: 40px;
 display: flex;
 background: white;
 align-items: center;
@@ -23,6 +23,16 @@ a {
       color: #3E95D7;
       cursor: pointer;
 }}
+
+@media (max-width: 768px) {
+  
+    flex-direction: column;
+    a {
+      display: block;
+      text-align: center;
+    }
+  
+}
 `
 
 export const ButtonStyle = styled.button`
@@ -34,4 +44,5 @@ padding: 5px 10px;
 border-radius: 4px;
 max-width: fit-content;
 align-self: center;
+
 `

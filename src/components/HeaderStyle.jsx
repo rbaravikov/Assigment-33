@@ -11,6 +11,11 @@ padding-top: 100px;
 height: 100vh;
 position: absolute;
 width: 100vw;
+
+@media (max-width: 768px) {
+        padding-top: 200px;
+    }
+
 `
 export const ContainerStyle = styled.div`
     
@@ -41,4 +46,9 @@ export const ContainerStyle = styled.div`
     svg {
         color: #2188CE;
     }
+
+    @media (max-width: 768px) {
+        div {max-width: 95%;}
+    }
+
 `
